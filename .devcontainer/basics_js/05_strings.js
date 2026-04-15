@@ -7,7 +7,7 @@ const repoCount = 1
 console.log(`Hello my name is ${name} and my repo count is ${repoCount}`);
 
 
-const gameName = new String('Ravi-chaudhary-com');
+const gameName = new String('Rav-chaudhary-com-Attri');
 
 // console.log(gameName[0]);
 // console.log(gameName.__proto__);
