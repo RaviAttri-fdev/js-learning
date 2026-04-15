@@ -7,7 +7,7 @@ const repoCount = 1
 console.log(`Hello my name is ${name} and my repo count is ${repoCount}`);
 
 
-const gameName = new String('Ravi-chaudhary');
+const gameName = new String('Ravi-chaudhary-com');
 
 // console.log(gameName[0]);
 // console.log(gameName.__proto__);
@@ -31,3 +31,12 @@ console.log(newString);
 const newStringOne = "   ravi     "
 console.log(newStringOne);
 console.log(newStringOne.trim());
+
+
+const url = "https://ravi.com/ravi%20chaudhary"
+console.log(url.replace('%20', '-'));
+ 
+
+console.log(url.includes('attri'));
+
+console.log(gameName.split('-'));
