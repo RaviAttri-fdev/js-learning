@@ -35,4 +35,40 @@ function loginUserMessage(username = "sandy"){
 }
 
 // console.log(loginUserMessage("ravi"))
-console.log(loginUserMessage())
+// console.log(loginUserMessage())
+
+
+function calculateCartPrice(val1, val2, ...num1){  // ... is rest operator
+    return num1
+
+}
+//console.log(calculateCartPrice(200, 400, 500, 2000, 150));
+
+const user = {   // through object 
+    username: "ravi",
+    price: 199
+}
+
+function handleObject(anyobject){
+    console.log(`Username is ${anyobject.username} and price is ${anyobject.price}`);
+    
+}
+// handleObject(user)
+handleObject({   // through arguments
+    username: "sam",
+    price: 199
+})
+
+
+const myNameArray = [200, 400, 100, 600]
+
+function returnSecondVlue(getArray){
+    return getArray[1]
+}
+
+// console.log(returnSecondVlue(myNameArray));
+console.log(returnSecondVlue([200, 400, 500]));
+
+
+// scope
+
