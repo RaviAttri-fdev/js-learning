@@ -5,4 +5,11 @@ function myName (){
     console.log("i");
 }
 
-myName()
+//myName()
+
+function addTwoNumbers(number1, number2){   //number1 , number2 are parameters
+ console.log( number1 + number2 );
+}
+
+addTwoNumbers(4, 6)  // 4,6 are arguments
+
