@@ -26,10 +26,10 @@
 
 
 // self calling function
-(function(){
-    let username = "ravi"
-    console.log(username);
-})();
+// (function(){
+//     let username = "ravi"
+//     console.log(username);
+// })();
 
 
 // arrow function
@@ -50,8 +50,3 @@
 // const addTwo = (num1, num2) => ({username: "ravi"})
 
 // console.log(addTwo(3,6));
-
-
-// const myArray = [2, 4, 5, 6, 7]
-
-// myArray.forEach(() => )
